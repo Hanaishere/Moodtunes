@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css" >
+    
+</head>
+
+<body>
+  <div class="page-container">
+    <nav>
+      <div class="nav-left">
+        <h1>Moodtunes 🎶</h1>
+      </div>
+      <div class="nav-right">
+        <button id="connectBtn">Connect to Spotify</button>
+      </div>
+    </nav>
+
+    <div class="content-wrap">
+      <header>
+        <h1>Create.Explore.Discover</h1>
+        <h3>Create your music according to your mood</h3>
+      </header>
+
+      <div class="search-section">
+        <input type="text" id="searchInput" placeholder="Search your vibe..." />
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <section class="tags">
+        <button class="tag">Chill</button>
+        <button class="tag">Study</button>
+        <button class="tag">Happy</button>
+        <button class="tag">Sad</button>
+        <button class="tag">Retro</button>
+      </section>
+
+      <section id="moodboard" class="moodboard"></section>
+
+      <section class="controls">
+        <button id="addSticker">Add Sticker</button>
+        <button id="addImage">Add Image</button>
+        <button id="exportBoard">Export Board</button>
+      </section>
+    </div>
+
+    <footer class="footer style= width:100%">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>Moodtunes 🎶</h2>
+        </div>
+
+        <div class="footer-links-group">
+          <div class="footer-column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">For the Record</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Communities</h4>
+            <ul>
+              <li><a href="#">For Artists</a></li>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">Advertising</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Web Player</a></li>
+              <li><a href="#">Free App</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom" style="width: 100%;">
+        <p>© 2025 Moodtunes by Hana. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
